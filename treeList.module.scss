@@ -1,0 +1,32 @@
+.treeList {
+    list-style: none;
+    margin: 0;
+}
+
+.item {
+    padding-top: 4px;
+
+    &__wrapper {
+        display: flex;
+        padding: 4px 0;
+    }
+
+    &__actions {
+        display: flex;
+        align-items: baseline;
+    }
+
+    &__arrow {
+        cursor: pointer;
+        margin-right: 24px;
+    }
+
+    &__checkbox {
+        margin-right: 8px;
+    }
+
+}
+
+.item__isOpen {
+    padding-bottom: 0;
+}
